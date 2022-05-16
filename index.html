@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(174, 174, 235);"> 
+ 
+    <div style="margin-top: 20%; display:grid; place-items: center;">
+        <div>
+            <input id="usuario_ingresado" type="text" placeholder="usuario" style="background-color: rgb(44, 250, 89);"> 
+        </div>
+        <div>
+            <input id="contrasenia_ingresada" type="password" placeholder="contraseña" style="background-color: rgb(44, 250, 89);">
+        </div>
+        <div>
+            <button onclick="verificacion()" style="background-color: rgb(255, 2, 2);">Ingreso</button>
+        </div>
+        <div id="mensaje_resultado">
+            <h4 style="background-color: rgb(243, 21, 76);">Resultado</h4> 
+        </div>
+    </div>
+
+    <script src="verificacion.js"></script>
+
+
+</body>
+</html>
